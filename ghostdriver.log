@@ -1,0 +1,69 @@
+[INFO  - 2021-03-07T11:29:52.585Z] GhostDriver - Main - running on port 49380
+[INFO  - 2021-03-07T11:29:54.886Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-03-07T11:29:54.886Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.customHeaders:  - {}
+[INFO  - 2021-03-07T11:29:54.887Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-03-07T11:29:54.887Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7096f6d0-7f38-11eb-942d-0ff773acd572
+[ERROR - 2021-03-07T11:29:58.322Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign(defaultParams, params)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-07T11:29:58.323Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - stack:
+  eventLog (https://shop.viettel.vn/js/interaction.js:27)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-07T11:30:03.124Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - msg: ReferenceError: Can't find variable: app
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-07T11:30:03.125Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - stack:
+  global code (https://econtact.viettel.vn:8909/js/controller/surveyController.js?v=2.4:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-07T11:30:03.419Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - msg: Error: [$injector:unpr] http://errors.angularjs.org/1.2.15/$injector/unpr?p0=translateFilterProvider%20%3C-%20translateFilter
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:35:16
+c@https://econtact.viettel.vn:8909/js/lib/angular.min.js:33:84
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:35:62
+c@https://econtact.viettel.vn:8909/js/lib/angular.min.js:33:84
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:120:476
+filter@https://econtact.viettel.vn:8909/js/lib/angular.min.js:164:472
+filterChain@https://econtact.viettel.vn:8909/js/lib/angular.min.js:164:397
+statements@https://econtact.viettel.vn:8909/js/lib/angular.min.js:164:159
+parse@https://econtact.viettel.vn:8909/js/lib/angular.min.js:161:51
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:95:387
+f@https://econtact.viettel.vn:8909/js/lib/angular.min.js:77:284
+ga@https://econtact.viettel.vn:8909/js/lib/angular.min.js:61:29
+U@https://econtact.viettel.vn:8909/js/lib/angular.min.js:47:430
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:119
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+ba@https://econtact.viettel.vn:8909/js/lib/angular.min.js:44:459
+Wa@https://econtact.viettel.vn:8909/js/lib/angular.min.js:54:267
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:157
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+ba@https://econtact.viettel.vn:8909/js/lib/angular.min.js:44:459
+Wa@https://econtact.viettel.vn:8909/js/lib/angular.min.js:54:267
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:157
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+N@https://econtact.viettel.vn:8909/js/lib/angular.min.js:46:278
+ba@https://econtact.viettel.vn:8909/js/lib/angular.min.js:44:459
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:18:64
+$eval@https://econtact.viettel.vn:8909/js/lib/angular.min.js:108:40
+$apply@https://econtact.viettel.vn:8909/js/lib/angular.min.js:108:323
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:18:29
+d@https://econtact.viettel.vn:8909/js/lib/angular.min.js:33:340
+c@https://econtact.viettel.vn:8909/js/lib/angular.min.js:17:445
+Yb@https://econtact.viettel.vn:8909/js/lib/angular.min.js:18:141
+Uc@https://econtact.viettel.vn:8909/js/lib/angular.min.js:17:216
+https://econtact.viettel.vn:8909/js/lib/angular.min.js:206:348
+j@https://econtact.viettel.vn:8909/js/lib/jquery.min.js:2:27405
+fireWith@https://econtact.viettel.vn:8909/js/lib/jquery.min.js:2:55183
+ready@https://econtact.viettel.vn:8909/js/lib/jquery.min.js:2:30058
+K@https://econtact.viettel.vn:8909/js/lib/jquery.min.js:2:30397
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-03-07T11:30:03.419Z] Session [7096f6d0-7f38-11eb-942d-0ff773acd572] - page.onError - stack:
+  (anonymous function) (https://econtact.viettel.vn:8909/js/lib/angular.min.js:89)
+
+  phantomjs://platform/console++.js:263 in error
