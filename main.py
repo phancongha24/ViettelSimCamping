@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 # xBlockRequest = driver.find_element_by_name("x_block_request").get_attribute("value")
 # driver.close()
 from ViettelSimCamping import ViettelSimCamping
-d
+
 data={
     'vt_signin[_csrf_token]': '3bce835a9881c6cfe6246b8cc37b7015',
     'vt_signin[phone]': '0929315514',
